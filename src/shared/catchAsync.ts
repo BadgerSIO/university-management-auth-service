@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { NextFunction, Request, RequestHandler, Response } from 'express'
 
 const catchAsync = (fn: RequestHandler) => {
