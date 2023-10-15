@@ -77,9 +77,16 @@ const updateFacutly = async (
     data: result,
   }
 }
+const deleteFaculty = async (id: string) => {
+  const result = await AcademicFaculty.findByIdAndDelete(id)
+  return {
+    data: result,
+  }
+}
 export const AcademicFacultyServices = {
   createAcademicFaculty,
   getAllFaculty,
   getFacultyById,
   updateFacutly,
+  deleteFaculty,
 }

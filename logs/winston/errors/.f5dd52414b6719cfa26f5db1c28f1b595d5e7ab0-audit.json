@@ -1,135 +1,135 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\.f5dd52414b6719cfa26f5db1c28f1b595d5e7ab0-audit.json",
+  "files": [
+    {
+      "date": 1697037680604,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-11-21-error.log",
+      "hash": "9a9803755ac3a83dfd54065ac5170d193b62a66ec41fe6573a9c05634aa94af5"
     },
-    "auditLog": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\.f5dd52414b6719cfa26f5db1c28f1b595d5e7ab0-audit.json",
-    "files": [
-        {
-            "date": 1697037680604,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-11-21-error.log",
-            "hash": "9a9803755ac3a83dfd54065ac5170d193b62a66ec41fe6573a9c05634aa94af5"
-        },
-        {
-            "date": 1697044861334,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-11-23-error.log",
-            "hash": "09e330f3cb9b472b6d596ef749d1936be0e0cbe3a18f7f5703cc0b349db1914c"
-        },
-        {
-            "date": 1697047450808,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-00-error.log",
-            "hash": "20d22afc0113f1088aefdb8221ddb9cae1eda6791459ff5235b93bd7f92e6549"
-        },
-        {
-            "date": 1697093995405,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-12-error.log",
-            "hash": "2011cbcc87c2f98a79f0e9d53675520a2405b5dccaade64f1d1e915b30e7b84b"
-        },
-        {
-            "date": 1697094123983,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-13-error.log",
-            "hash": "8eee9ec8254d440e9ee4651baa076108e647dd39a28754e10adc5e917b6df8a2"
-        },
-        {
-            "date": 1697098507822,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-14-error.log",
-            "hash": "843f6de92e0371d4adec2df2dda7a38e240d1275670c0c6e6601e78fe9bdb869"
-        },
-        {
-            "date": 1697108469638,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-17-error.log",
-            "hash": "04b53011c51dbcc10dab1e7235a8fdaccd478803d86ce16a6b091b46992bb0e5"
-        },
-        {
-            "date": 1697113243380,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-18-error.log",
-            "hash": "613ec8451563e7eb5bbf9772606d4b51b612d88ebedd1e6685b53350a3e87af9"
-        },
-        {
-            "date": 1697116486545,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-19-error.log",
-            "hash": "b1516ab4a5600f37ec5aaef2e9515651a5bc13e0deafa8593abf51a40edd0a47"
-        },
-        {
-            "date": 1697119854672,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-20-error.log",
-            "hash": "120abcb9b846a8004b6ee42d2a770bc27da184eccb0f50c4463491558d774c8c"
-        },
-        {
-            "date": 1697122865392,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-21-error.log",
-            "hash": "6aac1b23ae513578ffe45997ceba7b9a3b0c68e4c79bcbf369a2681dad4123b7"
-        },
-        {
-            "date": 1697173156343,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-10-error.log",
-            "hash": "4494e52113f92a889e450248d81a67f23065090869cac6973f8d56d15bb175c3"
-        },
-        {
-            "date": 1697173807456,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-11-error.log",
-            "hash": "b60028327c3a7710025e0b61066dcc00021c6912b7ec2a2221efe182f3b511da"
-        },
-        {
-            "date": 1697177118115,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-12-error.log",
-            "hash": "8f1a27c7dd4299ea7b5ffb30f0172a2f0ce61a084e8f8f08572c51dc23e71d27"
-        },
-        {
-            "date": 1697187253324,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-14-error.log",
-            "hash": "338d3eb378b7281275225130fe3c1c1e8c0253fd9382b2aa47ba5e92220f976a"
-        },
-        {
-            "date": 1697188472528,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-15-error.log",
-            "hash": "70cbacfd1e83acedd169d9aefd962a01f60c7827f8ec854e100e51c698f0db5f"
-        },
-        {
-            "date": 1697266818142,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-14-13-error.log",
-            "hash": "a10535bd4dcebaa56207681c447b6aa83ba376072d1aeac2e05631518365a1c6"
-        },
-        {
-            "date": 1697271270758,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-14-14-error.log",
-            "hash": "617639241b7e7099be28f3b058c279770122547bba630f94ac1330805d3d2449"
-        },
-        {
-            "date": 1697278594022,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-14-16-error.log",
-            "hash": "28538df37b046d97e2bc4e43ba081e9f177b1563d53a946d62e6bd73e651301d"
-        },
-        {
-            "date": 1697307582823,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-00-error.log",
-            "hash": "92b4d471316718c0ef0620f069b0100d3d3ce08867c632e35359b0c457775ab7"
-        },
-        {
-            "date": 1697310601479,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-01-error.log",
-            "hash": "5f90e8ab3e00b83dbc9c80ba84ed369566510c82a37e7c9cdb5de2485c220cff"
-        },
-        {
-            "date": 1697346182034,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-11-error.log",
-            "hash": "b89d355732e24c4f592645b3534e6bea37af12991c5b0977c338d895bb6043c6"
-        },
-        {
-            "date": 1697351697301,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-12-error.log",
-            "hash": "18d2b15cccf75d36cbf525e89da5e58553f0cc1af8eee409e737ad8c7a17f279"
-        },
-        {
-            "date": 1697362191762,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-15-error.log",
-            "hash": "19755c1db4ce3d549c3976bcfdb955a2e5599ace55b15d8dd8e8aa5ff5880d82"
-        },
-        {
-            "date": 1697364296918,
-            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-16-error.log",
-            "hash": "c13da41150dd019cd37e6f5bda44cb344ebf626becfb37a6d730b09638a9326a"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1697044861334,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-11-23-error.log",
+      "hash": "09e330f3cb9b472b6d596ef749d1936be0e0cbe3a18f7f5703cc0b349db1914c"
+    },
+    {
+      "date": 1697047450808,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-00-error.log",
+      "hash": "20d22afc0113f1088aefdb8221ddb9cae1eda6791459ff5235b93bd7f92e6549"
+    },
+    {
+      "date": 1697093995405,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-12-error.log",
+      "hash": "2011cbcc87c2f98a79f0e9d53675520a2405b5dccaade64f1d1e915b30e7b84b"
+    },
+    {
+      "date": 1697094123983,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-13-error.log",
+      "hash": "8eee9ec8254d440e9ee4651baa076108e647dd39a28754e10adc5e917b6df8a2"
+    },
+    {
+      "date": 1697098507822,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-14-error.log",
+      "hash": "843f6de92e0371d4adec2df2dda7a38e240d1275670c0c6e6601e78fe9bdb869"
+    },
+    {
+      "date": 1697108469638,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-17-error.log",
+      "hash": "04b53011c51dbcc10dab1e7235a8fdaccd478803d86ce16a6b091b46992bb0e5"
+    },
+    {
+      "date": 1697113243380,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-18-error.log",
+      "hash": "613ec8451563e7eb5bbf9772606d4b51b612d88ebedd1e6685b53350a3e87af9"
+    },
+    {
+      "date": 1697116486545,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-19-error.log",
+      "hash": "b1516ab4a5600f37ec5aaef2e9515651a5bc13e0deafa8593abf51a40edd0a47"
+    },
+    {
+      "date": 1697119854672,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-20-error.log",
+      "hash": "120abcb9b846a8004b6ee42d2a770bc27da184eccb0f50c4463491558d774c8c"
+    },
+    {
+      "date": 1697122865392,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-12-21-error.log",
+      "hash": "6aac1b23ae513578ffe45997ceba7b9a3b0c68e4c79bcbf369a2681dad4123b7"
+    },
+    {
+      "date": 1697173156343,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-10-error.log",
+      "hash": "4494e52113f92a889e450248d81a67f23065090869cac6973f8d56d15bb175c3"
+    },
+    {
+      "date": 1697173807456,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-11-error.log",
+      "hash": "b60028327c3a7710025e0b61066dcc00021c6912b7ec2a2221efe182f3b511da"
+    },
+    {
+      "date": 1697177118115,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-12-error.log",
+      "hash": "8f1a27c7dd4299ea7b5ffb30f0172a2f0ce61a084e8f8f08572c51dc23e71d27"
+    },
+    {
+      "date": 1697187253324,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-14-error.log",
+      "hash": "338d3eb378b7281275225130fe3c1c1e8c0253fd9382b2aa47ba5e92220f976a"
+    },
+    {
+      "date": 1697188472528,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-13-15-error.log",
+      "hash": "70cbacfd1e83acedd169d9aefd962a01f60c7827f8ec854e100e51c698f0db5f"
+    },
+    {
+      "date": 1697266818142,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-14-13-error.log",
+      "hash": "a10535bd4dcebaa56207681c447b6aa83ba376072d1aeac2e05631518365a1c6"
+    },
+    {
+      "date": 1697271270758,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-14-14-error.log",
+      "hash": "617639241b7e7099be28f3b058c279770122547bba630f94ac1330805d3d2449"
+    },
+    {
+      "date": 1697278594022,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-14-16-error.log",
+      "hash": "28538df37b046d97e2bc4e43ba081e9f177b1563d53a946d62e6bd73e651301d"
+    },
+    {
+      "date": 1697307582823,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-00-error.log",
+      "hash": "92b4d471316718c0ef0620f069b0100d3d3ce08867c632e35359b0c457775ab7"
+    },
+    {
+      "date": 1697310601479,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-01-error.log",
+      "hash": "5f90e8ab3e00b83dbc9c80ba84ed369566510c82a37e7c9cdb5de2485c220cff"
+    },
+    {
+      "date": 1697346182034,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-11-error.log",
+      "hash": "b89d355732e24c4f592645b3534e6bea37af12991c5b0977c338d895bb6043c6"
+    },
+    {
+      "date": 1697351697301,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-12-error.log",
+      "hash": "18d2b15cccf75d36cbf525e89da5e58553f0cc1af8eee409e737ad8c7a17f279"
+    },
+    {
+      "date": 1697362191762,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-15-error.log",
+      "hash": "19755c1db4ce3d549c3976bcfdb955a2e5599ace55b15d8dd8e8aa5ff5880d82"
+    },
+    {
+      "date": 1697364296918,
+      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\errors\\um_a-2023-10-15-16-error.log",
+      "hash": "c13da41150dd019cd37e6f5bda44cb344ebf626becfb37a6d730b09638a9326a"
+    }
+  ],
+  "hashType": "sha256"
 }
