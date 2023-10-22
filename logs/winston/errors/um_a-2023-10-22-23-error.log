@@ -1,0 +1,2 @@
+Sun Oct 22 2023 23:6:5 [UM-A] error: Unhandled Promise Rejection: Attempted illegal state transition from [TRANSACTION_ABORTED] to [TRANSACTION_COMMITTED]
+Sun Oct 22 2023 23:6:5 [UM-A] error: Promise Stack Trace:
