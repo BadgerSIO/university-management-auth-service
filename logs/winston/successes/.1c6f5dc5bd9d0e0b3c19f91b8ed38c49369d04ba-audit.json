@@ -1,40 +1,45 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\.1c6f5dc5bd9d0e0b3c19f91b8ed38c49369d04ba-audit.json",
-  "files": [
-    {
-      "date": 1698128063355,
-      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-12-success.log",
-      "hash": "0d9731b021723e6e97c18ff0b57c0c3ac3838709255ab51e5d524c47eac5d36b"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1698131359646,
-      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-13-success.log",
-      "hash": "e9e4a8af7694ff238f18be8958ebf432ebc71f265cbcdc9c17e53d4da6170886"
-    },
-    {
-      "date": 1698137435768,
-      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-14-success.log",
-      "hash": "d836cd83924a8431c89f5c7474f9888bf26f7ec423a605e4780a6e4f952c839c"
-    },
-    {
-      "date": 1698138747903,
-      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-15-success.log",
-      "hash": "88e18ad8b8183d7b42e7b6555616cd05539bf0d10bbc7d66834f75641119503a"
-    },
-    {
-      "date": 1698385443244,
-      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-27-11-success.log",
-      "hash": "dbb4d8cd3a432b68c96f86dcbe8e05fc2b31c27e8ef4ebc47bd0089c8a29f00c"
-    },
-    {
-      "date": 1698386681432,
-      "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-27-12-success.log",
-      "hash": "320bd7bd4bc78fb79208bebbca8fd95aa1c42dd71b5b8dc1fa18bdb7ab195f69"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\.1c6f5dc5bd9d0e0b3c19f91b8ed38c49369d04ba-audit.json",
+    "files": [
+        {
+            "date": 1698128063355,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-12-success.log",
+            "hash": "0d9731b021723e6e97c18ff0b57c0c3ac3838709255ab51e5d524c47eac5d36b"
+        },
+        {
+            "date": 1698131359646,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-13-success.log",
+            "hash": "e9e4a8af7694ff238f18be8958ebf432ebc71f265cbcdc9c17e53d4da6170886"
+        },
+        {
+            "date": 1698137435768,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-14-success.log",
+            "hash": "d836cd83924a8431c89f5c7474f9888bf26f7ec423a605e4780a6e4f952c839c"
+        },
+        {
+            "date": 1698138747903,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-24-15-success.log",
+            "hash": "88e18ad8b8183d7b42e7b6555616cd05539bf0d10bbc7d66834f75641119503a"
+        },
+        {
+            "date": 1698385443244,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-27-11-success.log",
+            "hash": "dbb4d8cd3a432b68c96f86dcbe8e05fc2b31c27e8ef4ebc47bd0089c8a29f00c"
+        },
+        {
+            "date": 1698386681432,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-27-12-success.log",
+            "hash": "320bd7bd4bc78fb79208bebbca8fd95aa1c42dd71b5b8dc1fa18bdb7ab195f69"
+        },
+        {
+            "date": 1698487411865,
+            "name": "C:\\projects\\level2-again\\university-management-auth-service\\logs\\winston\\successes\\um_a-2023-10-28-16-success.log",
+            "hash": "2df4b54ebe3d0aa2b8908da270fbd7accb69b4b39a757ec1c7d7fdfab44470bc"
+        }
+    ],
+    "hashType": "sha256"
 }
