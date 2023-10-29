@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose'
-import { bloodGroup, gender } from './student.constants'
+import { bloodGroup, gender } from '../../../constants/common'
 import { IStudent, StudentModel } from './student.interface'
 export const StudentSchema = new Schema<IStudent, StudentModel>(
   {

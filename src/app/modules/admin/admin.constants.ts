@@ -1,4 +1,4 @@
-export const studentFilterableFields = [
+export const adminFilterableFields = [
   'searchTerm',
   'id',
   'bloodGroup',
@@ -6,7 +6,7 @@ export const studentFilterableFields = [
   'contactNo',
   'emergencyContactNo',
 ]
-export const studentSearchableFields = [
+export const adminSearchableFields = [
   'id',
   'email',
   'contactNo',
