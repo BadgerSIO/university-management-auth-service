@@ -6,6 +6,14 @@ const createManagementDepartmentZodSchema = z.object({
     }),
   }),
 })
+const updateManagementDepartmentZodSchema = z.object({
+  body: z.object({
+    title: z.string({
+      required_error: 'title is required',
+    }),
+  }),
+})
 export const ManagementDepartmentValidation = {
   createManagementDepartmentZodSchema,
+  updateManagementDepartmentZodSchema,
 }

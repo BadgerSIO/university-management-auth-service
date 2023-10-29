@@ -42,7 +42,39 @@ const getAllManagementDepartments: RequestHandler = catchAsync(
     })
   },
 )
+const getSinglelManagementDepartment: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id
+    const result =
+      await ManagementDepartmentServices.getSinglelManagementDepartment(id)
+    sendResponse<IManagementDepartment>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Management department retrived successfully',
+      data: result.data,
+    })
+  },
+)
+const updateManagementDepartment: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id
+    const updateManagementDepartmentInfo = req.body
+    const result =
+      await ManagementDepartmentServices.updateManagementDepartment(
+        id,
+        updateManagementDepartmentInfo,
+      )
+    sendResponse<IManagementDepartment>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Management department updated Successfully',
+      data: result.data,
+    })
+  },
+)
 export const ManagementDepartmentController = {
   createManagementDepartment,
   getAllManagementDepartments,
+  getSinglelManagementDepartment,
+  updateManagementDepartment,
 }

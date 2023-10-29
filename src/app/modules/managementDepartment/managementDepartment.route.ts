@@ -13,5 +13,16 @@ router.post(
   ManagementDepartmentController.createManagementDepartment,
 )
 router.get('/', ManagementDepartmentController.getAllManagementDepartments)
+router.get(
+  '/:id',
+  ManagementDepartmentController.getSinglelManagementDepartment,
+)
+router.patch(
+  '/:id',
+  validateRequest(
+    ManagementDepartmentValidation.updateManagementDepartmentZodSchema,
+  ),
+  ManagementDepartmentController.updateManagementDepartment,
+)
 
 export const ManagementDepartmentRoute = router
