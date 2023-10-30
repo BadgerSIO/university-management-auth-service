@@ -65,7 +65,10 @@ const getAllAdmins = async (
     data: result,
   }
 }
-
+const getSingleAdmin = async (id: string): Promise<IAdmin | null> => {
+  const result = await Admin.findOne({ id }).populate('managementDepartment')
+  return result
+}
 const deleteAdmin = async (id: string): Promise<IAdmin | null> => {
   // check if the Admin is exist
   const isExist = await Admin.findOne({ id })
@@ -95,7 +98,23 @@ const deleteAdmin = async (id: string): Promise<IAdmin | null> => {
     throw error
   }
 }
+const updateAdmin = async (
+  id: string,
+  payload: Partial<IAdmin>,
+): Promise<IAdmin | null> => {
+  const isExist = await Admin.findOne({ id })
+  if (!isExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Admin not found !')
+  }
+  const result = await Admin.findOneAndUpdate({ id }, payload, {
+    new: true,
+  }).populate('managementDepartment')
+
+  return result
+}
 export const AdminService = {
-  deleteAdmin,
   getAllAdmins,
+  getSingleAdmin,
+  deleteAdmin,
+  updateAdmin,
 }

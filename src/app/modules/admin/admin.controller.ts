@@ -21,6 +21,18 @@ const getAllAdmins: RequestHandler = catchAsync(
     })
   },
 )
+const getSingleAdmin: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id
+    const result = await AdminService.getSingleAdmin(id)
+    sendResponse<IAdmin>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: result ? 'Admin retrieved' : 'No admin matched this id',
+      data: result,
+    })
+  },
+)
 const deleteAdmin: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const id = req.params.id
@@ -33,7 +45,22 @@ const deleteAdmin: RequestHandler = catchAsync(
     })
   },
 )
+const updateAdmin: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id
+    const updateData = req.body
+    const result = await AdminService.updateAdmin(id, updateData)
+    sendResponse<IAdmin>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Admin updated successfully !',
+      data: result,
+    })
+  },
+)
 export const AdminController = {
   deleteAdmin,
   getAllAdmins,
+  getSingleAdmin,
+  updateAdmin,
 }
