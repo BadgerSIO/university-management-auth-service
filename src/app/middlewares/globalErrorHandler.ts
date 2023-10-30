@@ -8,12 +8,11 @@ import handleCastError from '../../error/handleCastError'
 import handleValidationError from '../../error/handleValidationError'
 import handleZodError from '../../error/handleZodError'
 import { IGenericErrorMessages } from '../../interfaces/error'
-import { errorLogger } from '../../shared/logger'
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
     ? console.log('globalErrorHandler', error)
-    : errorLogger.error('globalErrorHandler', error)
+    : console.log('globalErrorHandler', error)
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessage: IGenericErrorMessages[] = []
