@@ -10,6 +10,9 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 //application routes
+app.get('/', (req, res) => {
+  res.send('University management auth service running 🥳')
+})
 app.use('/api/v1', routes)
 
 //api not found handler
