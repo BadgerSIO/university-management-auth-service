@@ -2,7 +2,7 @@
   "name": "university-management-auth-service",
   "version": "1.0.0",
   "description": "university management auth service",
-  "main": "src/server.ts",
+  "main": "dist/server.ts",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "start": "node dist/server.js",
